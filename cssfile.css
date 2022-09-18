@@ -25,6 +25,7 @@
     text-align: center;
     padding: 20px 18px;
     color: rgb(249, 250, 250);
+    font-size: 20px;
     
   }
   
@@ -38,6 +39,7 @@
     padding-top: 30px;
     /*margin-left: 35px;
     margin-right: 35px;*/
+    border-top: 20px solid skyblue;
   }
 
   #childContainer{
@@ -55,6 +57,9 @@
    padding-top: 20px;
    padding-bottom: 20px;
    background-color: bisque;
+   border-right: 20px solid skyblue;
+   border-top: 20px solid skyblue;
+   
   }
 
   #myintro{
@@ -62,8 +67,10 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: darkgrey;
+    border-left: 20px solid skyblue;
+    border-bottom: 20px solid skyblue;
    }
    
-  div > h1, p{
+  div > h1, h5, p{
     text-align: center;
   }
