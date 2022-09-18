@@ -1,0 +1,30 @@
+body{
+  box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 18px;
+    color: rgb(249, 250, 250);
+    
+  }
+  
+  li a:hover {
+    background-color: skyblue;
+  }
