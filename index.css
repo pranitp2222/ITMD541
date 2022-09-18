@@ -28,3 +28,19 @@ ul {
   li a:hover {
     background-color: skyblue;
   }
+
+  #container{
+    display: flex;
+    padding: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  #childContainer{
+    justify-content: center;
+    
+  }
+
+  img{
+    width: 100%;
+  }
