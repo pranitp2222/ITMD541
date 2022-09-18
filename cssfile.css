@@ -56,6 +56,13 @@
    padding-bottom: 20px;
    background-color: bisque;
   }
+
+  #myintro{
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+   }
    
   div > h1, p{
     text-align: center;
