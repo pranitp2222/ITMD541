@@ -1,7 +1,10 @@
-body{
+ body{
   box-sizing: border-box;
-}
-ul {
+ }
+ nav{
+  margin-top: -25px;
+ }
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,17 +33,30 @@ ul {
   }
 
   #container{
+    justify-content: center;
     display: flex;
-    padding: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
+    padding-top: 30px;
+    /*margin-left: 35px;
+    margin-right: 35px;*/
   }
 
   #childContainer{
-    justify-content: center;
+    /*justify-content: center;*/
     
   }
 
   img{
     width: 100%;
+    height: 100%;
+  }
+
+  #intro{
+   margin-top: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: bisque;
+  }
+   
+  div > h1, p{
+    text-align: center;
   }
